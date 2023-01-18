@@ -146,7 +146,7 @@ function Header() {
                                         className={item?.style}
                                     >
                                         {item?.name}
-                                        {/* {item?.id === 2 ? `  (${userState?.myTickets.length})` : ''} */}
+                                        {item?.id === 2 ? ` (${userState?.myTickets.length})` : ''}
                                     </NavLink>
                                 );
                             } else {
