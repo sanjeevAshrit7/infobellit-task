@@ -64,8 +64,6 @@ function Header() {
 
     const location = usePathname();
 
-    console.log('loc', location, location === '/')
-
     if (isTabletOrMobile) {
         return (
             <header className={`py-7 bg-blue-50 ${location === '/' ? 'hidden' : ''}`}>

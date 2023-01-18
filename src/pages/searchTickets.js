@@ -1,13 +1,29 @@
 import { makeStyles } from '@material-ui/core';
 import { ArrowForward } from '@mui/icons-material';
-import { Box, Button, Card, CardActions, CardContent, CardMedia, Paper, Typography } from '@mui/material'
+import {
+    Box,
+    Button,
+    Card,
+    CardActions,
+    CardContent,
+    CardMedia,
+    Paper,
+    Typography
+} from '@mui/material';
 import { isEmpty } from 'lodash';
 import { useSnackbar } from 'notistack';
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from 'react-responsive';
 
-import { BookNow, CustomDropDown, CustomInput, images, Loader, modalStyle, NoData } from '../utils/commonComponents'
+import {
+    BookNow,
+    CustomDropDown,
+    images,
+    Loader,
+    modalStyle,
+    NoData
+} from '../utils/commonComponents';
 import { ticketData } from '../utils/data';
 
 const useStyles = makeStyles({
@@ -233,8 +249,7 @@ function SearchTickets() {
                                         >Book Now</Button>
                                     </CardActions>
                                 </Card>
-                            )
-                        })
+                            )})
                         }
                     </div>
                 </div>

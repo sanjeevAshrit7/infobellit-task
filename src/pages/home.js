@@ -1,10 +1,10 @@
-import { Box, Modal, Typography } from '@mui/material'
+import { Box, Modal } from '@mui/material';
 import { isEmpty } from 'lodash';
 import { useSnackbar } from 'notistack';
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { useMediaQuery } from 'react-responsive';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { setUserDetails } from '../store/loginReducer/actions';
 import { CustomInput, images, modalStyle } from '../utils/commonComponents'

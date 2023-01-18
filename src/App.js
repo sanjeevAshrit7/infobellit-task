@@ -1,15 +1,14 @@
-import { SnackbarProvider } from 'notistack'
-import React from 'react'
-import { Provider } from 'react-redux'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { SnackbarProvider } from 'notistack';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Header from './components/header'
-import AboutUs from './pages/aboutUs'
-import Dasboard from './pages/dasboard'
-import Home from './pages/home'
-import MyBookings from './pages/myBookings'
-import SearchTickets from './pages/searchTickets'
-import store from './store'
+import Header from './components/header';
+import AboutUs from './pages/aboutUs';
+import Home from './pages/home';
+import MyBookings from './pages/myBookings';
+import SearchTickets from './pages/searchTickets';
+import store from './store';
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
           <Header />
           <Routes>
             <Route path={'/'} element={<Home />} />
-            <Route path={'/dashboard'} element={<Dasboard />} />
             <Route path={'/aboutUs'} element={<AboutUs />} />
             <Route path={'/myBookings'} element={<MyBookings />} />
             <Route path={'/searchTickets'} element={<SearchTickets />} />

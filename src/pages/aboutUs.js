@@ -1,9 +1,8 @@
 import React from 'react'
-import { useMediaQuery } from 'react-responsive'
 import { images } from '../utils/commonComponents'
 
 function AboutUs() {
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+
     return (
         <section className="container w-full lg:px-0 px-5 lg:w-3/4 mx-auto min-h-screen">
             <div className="mt-16">

@@ -1,9 +1,10 @@
 import { Box, Paper, Typography } from '@mui/material';
-import { isEmpty } from 'lodash'
-import React from 'react'
+import { isEmpty } from 'lodash';
+import React from 'react';
 import { useSelector } from 'react-redux'
 import { useMediaQuery } from 'react-responsive';
-import { images, NoData } from '../utils/commonComponents'
+
+import { images, NoData } from '../utils/commonComponents';
 
 function MyBookings() {
 

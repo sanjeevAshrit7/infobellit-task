@@ -1,9 +1,10 @@
 import { Add, Remove } from '@mui/icons-material';
-import { Box, Input, MenuItem, Modal, Select, Typography } from '@mui/material';
-import { isEmpty, set } from 'lodash';
+import { Box, MenuItem, Modal, Select, Typography } from '@mui/material';
+import { isEmpty } from 'lodash';
 import Lottie from "lottie-react";
 import { useSnackbar } from 'notistack';
 import { useState } from 'react';
+
 import { useMediaQuery } from 'react-responsive';
 import { setMyTicket } from '../store/loginReducer/actions';
 
