@@ -123,7 +123,7 @@ function SearchTickets() {
                 <Paper elevation={2} className={isTabletOrMobile ? 'mx-6 my-20' : ''}>
                     <Box
                         sx={!isTabletOrMobile ? modalStyle : {}}
-                        className={`self-center py-${isTabletOrMobile ? '6' : '2'} px-2 flex flex-col`}
+                        className={`self-center py-${isTabletOrMobile ? '6' : '2'} px-2 flex flex-col my-6`}
                     >
                         <span
                             className={'text-2xl font-bold self-center text-center'}

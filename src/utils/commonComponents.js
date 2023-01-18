@@ -104,11 +104,11 @@ export const CustomInput = ({
     isSmall = false
 }) => {
     return (
-        <div className={isSmall ? 'flex flex-col justify-center w-20' : 'flex flex-col justify-center'}>
+        <div className={isSmall ? 'flex flex-col justify-center w-20' : 'flex flex-col justify-center self-center w-full'}>
             <input
                 placeholder={placeholder}
                 type="text"
-                className="w-full lg:w-80 p-2 border-2 border-gray-500 rounded focus:outline-none focus:border-green-800"
+                className="w-full p-2 border-2 border-gray-500 rounded focus:outline-none focus:border-green-800"
                 onChange={onChange}
             />
             <span className='text-red-400 text-xs my-1'>

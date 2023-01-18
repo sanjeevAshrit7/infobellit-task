@@ -36,7 +36,7 @@ function Home() {
                 open={true}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
-                className='mx-4'
+                className='mx-4 self-center'
             >
                 <Box sx={modalStyle} className={isTabletOrMobile ? 'w-full self-center' : 'w-2/5 self-center'}>
                     <div className={'flex items-center flex-col'}>
@@ -45,7 +45,7 @@ function Home() {
                         >
                             Enter your details to continue
                         </span>
-                        <div className="flex items-center mt-2 gap-3 flex-col  py-4">
+                        <div className="flex items-center mt-2 gap-3 flex-col  py-4 w-full">
                             <CustomInput
                                 onChange={(e) => {
                                     setUserName(e.target.value)
